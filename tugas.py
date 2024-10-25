@@ -30,8 +30,8 @@ print ("\n-------------- Data Gaji---------------"
        f"\n Agama\t\t\t: {agama}",
        f"\n Divisi\t\t\t: {divisi}"
        f"\n Jabatan\t\t: {jabatan}"
-       f"\n Gaji Pokok\t\t: {gapok:,}"
-       f"\n Tunjangan Jabatan\t: {tunjab:,}"
-       f"\n Gaji Kotor\t\t: {gakot:,}"
-       f"\n Zakat\t\t\t: {zakat:,}"
-       f"\n Gaji Bersih\t\t: {gaji_bersih:,}")
+       f"\n Gaji Pokok\t\t: {gapok:,.0f}"
+       f"\n Tunjangan Jabatan\t: {tunjab:,.0f}"
+       f"\n Gaji Kotor\t\t: {gakot:,.0f}"
+       f"\n Zakat\t\t\t: {zakat:,.0f}"
+       f"\n Gaji Bersih\t\t: {gaji_bersih:,.0f}")
